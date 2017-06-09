@@ -3,8 +3,8 @@ DEPENDS = "avahi gstreamer1.0 gstreamer1.0-rtsp-server glib-2.0 python python-fu
 LICENSE = "Apache-2.0"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=93888867ace35ffec2c845ea90b2e16b"
 
-SRCREV = "a6dae306ac319b5b3cd141e1aac8b5e43c0f965e"
-SRC_URI = "gitsm://git@github.com/01org/camera-streaming-daemon.git;protocol=https;branch=master"
+SRCREV = "2f4ff890880486a59defa46303b7503f17fb2d0e"
+SRC_URI = "gitsm://git@github.com/otaviobp/camera-streaming-daemon.git;protocol=https;branch=temp"
 SRC_URI += "file://csd"
 SRC_URI += "file://main.conf"
 
