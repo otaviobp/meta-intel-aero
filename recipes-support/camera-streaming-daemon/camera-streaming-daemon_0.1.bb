@@ -12,6 +12,7 @@ S = "${WORKDIR}/git"
 
 inherit autotools pythonnative pkgconfig update-rc.d systemd
 
+EXTRA_OECONF = "--enable-aero"
 PACKAGECONFIG ??= "${@bb.utils.filter('DISTRO_FEATURES', 'systemd', d)}"
 PACKAGECONFIG[systemd] = "--enable-systemd --with-systemdsystemunitdir=${systemd_unitdir}/system/,--disable-systemd"
 
